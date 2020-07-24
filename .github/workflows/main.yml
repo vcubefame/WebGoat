@@ -28,7 +28,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Build with Maven
-      run: mvn clean install -DskipTests --file pom.xml
+      run: mvn clean install -DskipTests
 
     # Runs a set of commands using the runners shell
     - name: Synopsys Detect
